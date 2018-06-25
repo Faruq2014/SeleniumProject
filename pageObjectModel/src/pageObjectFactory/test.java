@@ -22,8 +22,8 @@ public class test {
 		 */
 		
 		LoginPage lp = new LoginPage(driver);
-		lp.emailbutton().sendKeys("mjmolla@gmail.com");
-		lp.passwordbutton().sendKeys("faruq8205");
+		lp.emailbutton().sendKeys("abc@gmail.com");
+		lp.passwordbutton().sendKeys("password");
 		lp.loginbutton().click();
 		driver.quit();
 	}

@@ -28,8 +28,8 @@ public class RediffLoginTest {
 		driver.get("https://www.facebook.com/");
 		
 		FacebookLoginPage fb = new FacebookLoginPage(driver);
-		fb.emailbttn().sendKeys("mjmolla@gmail.com");
-		fb.passbuttn().sendKeys("faruq8205");
+		fb.emailbttn().sendKeys("abc@gmail.com");
+		fb.passbuttn().sendKeys("password");
 		fb.logbttn().click();
 		System.out.println("fb test");
 		driver.quit();

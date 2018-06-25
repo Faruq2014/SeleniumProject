@@ -17,8 +17,8 @@ public class LoginTest {
 		
 		
 		Loginpage lp = new Loginpage(driver);
-		lp.email().sendKeys("mjmolla@gmail.com");
-		lp.password().sendKeys("faruq8205");
+		lp.email().sendKeys("abc@gmail.com");
+		lp.password().sendKeys("password");
 		lp.login().click();
 		
 		}
