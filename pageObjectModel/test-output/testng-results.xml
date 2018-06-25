@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29415" started-at="2018-05-25T01:40:09Z" finished-at="2018-05-25T01:40:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29415" started-at="2018-05-25T01:40:09Z" finished-at="2018-05-25T01:40:38Z">
+      <class name="pageObject.LoginTest">
+        <test-method status="PASS" signature="Google()[pri:0, instance:pageObject.LoginTest@548a9f61]" name="Google" duration-ms="8934" started-at="2018-05-25T01:40:09Z" finished-at="2018-05-25T01:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+        <test-method status="PASS" signature="dologing()[pri:0, instance:pageObject.LoginTest@548a9f61]" name="dologing" duration-ms="20457" started-at="2018-05-25T01:40:18Z" finished-at="2018-05-25T01:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologing -->
+      </class> <!-- pageObject.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
